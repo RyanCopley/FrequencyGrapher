@@ -96,9 +96,9 @@
 				5DFA79D31B23FC8200A6E27A /* SelectionViewController.m */,
 				5DFA79F11B24080600A6E27A /* CalibrationViewController.h */,
 				5DFA79F21B24080600A6E27A /* CalibrationViewController.m */,
+				5DFA79D51B23FC8200A6E27A /* Main.storyboard */,
 				5D7FC85A1B24F18C00B2A519 /* BaseLightViewController.h */,
 				5D7FC85B1B24F18C00B2A519 /* BaseLightViewController.m */,
-				5DFA79D51B23FC8200A6E27A /* Main.storyboard */,
 				5D7FC85D1B250BC400B2A519 /* BaseLightGraphViewController.h */,
 				5D7FC85E1B250BC400B2A519 /* BaseLightGraphViewController.m */,
 				5DFA79D81B23FC8200A6E27A /* Images.xcassets */,
@@ -315,7 +315,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -350,7 +350,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
@@ -362,6 +362,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = FrequencyGrapher/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -372,6 +373,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = FrequencyGrapher/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};

@@ -64,6 +64,9 @@
 -(void)imagePickerControllerDidCancel:(UIImagePickerController *)picker{
     [picker dismissViewControllerAnimated:YES completion:NULL];
 }
+- (IBAction)theFuckingUserTappedTheFuckingNextGayassButtonButtholedildo:(id)sender {
+    [self performSegueWithIdentifier:@"baseLightToBaseLightGraph" sender:self];
+}
 
 -(void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender{
     if([[segue identifier] isEqualToString:@"baseLightToBaseLightGraph"]){

@@ -15,18 +15,18 @@
 @end
 
 @implementation BaseLightGraphViewController
-@synthesize imageBaseLight;
 
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
-    [self.imageViewBaseLight setImage:imageBaseLight];
+    [self.imageViewBaseLight setImage: self.imageBaseLight];
 }
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
+
 
 
 /*
