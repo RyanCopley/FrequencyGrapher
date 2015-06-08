@@ -1,0 +1,447 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5D7FC85C1B24F18C00B2A519 /* BaseLightViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D7FC85B1B24F18C00B2A519 /* BaseLightViewController.m */; };
+		5D7FC85F1B250BC400B2A519 /* BaseLightGraphViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D7FC85E1B250BC400B2A519 /* BaseLightGraphViewController.m */; };
+		5DFA79CE1B23FC8200A6E27A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DFA79CD1B23FC8200A6E27A /* main.m */; };
+		5DFA79D11B23FC8200A6E27A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DFA79D01B23FC8200A6E27A /* AppDelegate.m */; };
+		5DFA79D41B23FC8200A6E27A /* SelectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DFA79D31B23FC8200A6E27A /* SelectionViewController.m */; };
+		5DFA79D71B23FC8200A6E27A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5DFA79D51B23FC8200A6E27A /* Main.storyboard */; };
+		5DFA79D91B23FC8200A6E27A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5DFA79D81B23FC8200A6E27A /* Images.xcassets */; };
+		5DFA79DC1B23FC8200A6E27A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5DFA79DA1B23FC8200A6E27A /* LaunchScreen.xib */; };
+		5DFA79E81B23FC8200A6E27A /* FrequencyGrapherTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DFA79E71B23FC8200A6E27A /* FrequencyGrapherTests.m */; };
+		5DFA79F31B24080600A6E27A /* CalibrationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DFA79F21B24080600A6E27A /* CalibrationViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5DFA79E21B23FC8200A6E27A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5DFA79C01B23FC8200A6E27A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5DFA79C71B23FC8200A6E27A;
+			remoteInfo = FrequencyGrapher;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5D7FC85A1B24F18C00B2A519 /* BaseLightViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseLightViewController.h; sourceTree = "<group>"; };
+		5D7FC85B1B24F18C00B2A519 /* BaseLightViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseLightViewController.m; sourceTree = "<group>"; };
+		5D7FC85D1B250BC400B2A519 /* BaseLightGraphViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseLightGraphViewController.h; sourceTree = "<group>"; };
+		5D7FC85E1B250BC400B2A519 /* BaseLightGraphViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseLightGraphViewController.m; sourceTree = "<group>"; };
+		5DFA79C81B23FC8200A6E27A /* FrequencyGrapher.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FrequencyGrapher.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5DFA79CC1B23FC8200A6E27A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5DFA79CD1B23FC8200A6E27A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5DFA79CF1B23FC8200A6E27A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		5DFA79D01B23FC8200A6E27A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		5DFA79D21B23FC8200A6E27A /* SelectionViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SelectionViewController.h; sourceTree = "<group>"; };
+		5DFA79D31B23FC8200A6E27A /* SelectionViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SelectionViewController.m; sourceTree = "<group>"; };
+		5DFA79D61B23FC8200A6E27A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5DFA79D81B23FC8200A6E27A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		5DFA79DB1B23FC8200A6E27A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		5DFA79E11B23FC8200A6E27A /* FrequencyGrapherTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FrequencyGrapherTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5DFA79E61B23FC8200A6E27A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5DFA79E71B23FC8200A6E27A /* FrequencyGrapherTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FrequencyGrapherTests.m; sourceTree = "<group>"; };
+		5DFA79F11B24080600A6E27A /* CalibrationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CalibrationViewController.h; sourceTree = "<group>"; };
+		5DFA79F21B24080600A6E27A /* CalibrationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CalibrationViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5DFA79C51B23FC8200A6E27A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5DFA79DE1B23FC8200A6E27A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5DFA79BF1B23FC8200A6E27A = {
+			isa = PBXGroup;
+			children = (
+				5DFA79CA1B23FC8200A6E27A /* FrequencyGrapher */,
+				5DFA79E41B23FC8200A6E27A /* FrequencyGrapherTests */,
+				5DFA79C91B23FC8200A6E27A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5DFA79C91B23FC8200A6E27A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5DFA79C81B23FC8200A6E27A /* FrequencyGrapher.app */,
+				5DFA79E11B23FC8200A6E27A /* FrequencyGrapherTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5DFA79CA1B23FC8200A6E27A /* FrequencyGrapher */ = {
+			isa = PBXGroup;
+			children = (
+				5DFA79CF1B23FC8200A6E27A /* AppDelegate.h */,
+				5DFA79D01B23FC8200A6E27A /* AppDelegate.m */,
+				5DFA79D21B23FC8200A6E27A /* SelectionViewController.h */,
+				5DFA79D31B23FC8200A6E27A /* SelectionViewController.m */,
+				5DFA79F11B24080600A6E27A /* CalibrationViewController.h */,
+				5DFA79F21B24080600A6E27A /* CalibrationViewController.m */,
+				5D7FC85A1B24F18C00B2A519 /* BaseLightViewController.h */,
+				5D7FC85B1B24F18C00B2A519 /* BaseLightViewController.m */,
+				5DFA79D51B23FC8200A6E27A /* Main.storyboard */,
+				5D7FC85D1B250BC400B2A519 /* BaseLightGraphViewController.h */,
+				5D7FC85E1B250BC400B2A519 /* BaseLightGraphViewController.m */,
+				5DFA79D81B23FC8200A6E27A /* Images.xcassets */,
+				5DFA79DA1B23FC8200A6E27A /* LaunchScreen.xib */,
+				5DFA79CB1B23FC8200A6E27A /* Supporting Files */,
+			);
+			path = FrequencyGrapher;
+			sourceTree = "<group>";
+		};
+		5DFA79CB1B23FC8200A6E27A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5DFA79CC1B23FC8200A6E27A /* Info.plist */,
+				5DFA79CD1B23FC8200A6E27A /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5DFA79E41B23FC8200A6E27A /* FrequencyGrapherTests */ = {
+			isa = PBXGroup;
+			children = (
+				5DFA79E71B23FC8200A6E27A /* FrequencyGrapherTests.m */,
+				5DFA79E51B23FC8200A6E27A /* Supporting Files */,
+			);
+			path = FrequencyGrapherTests;
+			sourceTree = "<group>";
+		};
+		5DFA79E51B23FC8200A6E27A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5DFA79E61B23FC8200A6E27A /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5DFA79C71B23FC8200A6E27A /* FrequencyGrapher */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5DFA79EB1B23FC8200A6E27A /* Build configuration list for PBXNativeTarget "FrequencyGrapher" */;
+			buildPhases = (
+				5DFA79C41B23FC8200A6E27A /* Sources */,
+				5DFA79C51B23FC8200A6E27A /* Frameworks */,
+				5DFA79C61B23FC8200A6E27A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FrequencyGrapher;
+			productName = FrequencyGrapher;
+			productReference = 5DFA79C81B23FC8200A6E27A /* FrequencyGrapher.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5DFA79E01B23FC8200A6E27A /* FrequencyGrapherTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5DFA79EE1B23FC8200A6E27A /* Build configuration list for PBXNativeTarget "FrequencyGrapherTests" */;
+			buildPhases = (
+				5DFA79DD1B23FC8200A6E27A /* Sources */,
+				5DFA79DE1B23FC8200A6E27A /* Frameworks */,
+				5DFA79DF1B23FC8200A6E27A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5DFA79E31B23FC8200A6E27A /* PBXTargetDependency */,
+			);
+			name = FrequencyGrapherTests;
+			productName = FrequencyGrapherTests;
+			productReference = 5DFA79E11B23FC8200A6E27A /* FrequencyGrapherTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5DFA79C01B23FC8200A6E27A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = "Jeremy Storer";
+				TargetAttributes = {
+					5DFA79C71B23FC8200A6E27A = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					5DFA79E01B23FC8200A6E27A = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = 5DFA79C71B23FC8200A6E27A;
+					};
+				};
+			};
+			buildConfigurationList = 5DFA79C31B23FC8200A6E27A /* Build configuration list for PBXProject "FrequencyGrapher" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5DFA79BF1B23FC8200A6E27A;
+			productRefGroup = 5DFA79C91B23FC8200A6E27A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5DFA79C71B23FC8200A6E27A /* FrequencyGrapher */,
+				5DFA79E01B23FC8200A6E27A /* FrequencyGrapherTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5DFA79C61B23FC8200A6E27A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5DFA79D71B23FC8200A6E27A /* Main.storyboard in Resources */,
+				5DFA79DC1B23FC8200A6E27A /* LaunchScreen.xib in Resources */,
+				5DFA79D91B23FC8200A6E27A /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5DFA79DF1B23FC8200A6E27A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5DFA79C41B23FC8200A6E27A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5DFA79F31B24080600A6E27A /* CalibrationViewController.m in Sources */,
+				5DFA79D41B23FC8200A6E27A /* SelectionViewController.m in Sources */,
+				5DFA79D11B23FC8200A6E27A /* AppDelegate.m in Sources */,
+				5D7FC85F1B250BC400B2A519 /* BaseLightGraphViewController.m in Sources */,
+				5DFA79CE1B23FC8200A6E27A /* main.m in Sources */,
+				5D7FC85C1B24F18C00B2A519 /* BaseLightViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5DFA79DD1B23FC8200A6E27A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5DFA79E81B23FC8200A6E27A /* FrequencyGrapherTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5DFA79E31B23FC8200A6E27A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5DFA79C71B23FC8200A6E27A /* FrequencyGrapher */;
+			targetProxy = 5DFA79E21B23FC8200A6E27A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5DFA79D51B23FC8200A6E27A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5DFA79D61B23FC8200A6E27A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5DFA79DA1B23FC8200A6E27A /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5DFA79DB1B23FC8200A6E27A /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5DFA79E91B23FC8200A6E27A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		5DFA79EA1B23FC8200A6E27A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5DFA79EC1B23FC8200A6E27A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FrequencyGrapher/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		5DFA79ED1B23FC8200A6E27A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FrequencyGrapher/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		5DFA79EF1B23FC8200A6E27A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = FrequencyGrapherTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FrequencyGrapher.app/FrequencyGrapher";
+			};
+			name = Debug;
+		};
+		5DFA79F01B23FC8200A6E27A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = FrequencyGrapherTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FrequencyGrapher.app/FrequencyGrapher";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5DFA79C31B23FC8200A6E27A /* Build configuration list for PBXProject "FrequencyGrapher" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5DFA79E91B23FC8200A6E27A /* Debug */,
+				5DFA79EA1B23FC8200A6E27A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5DFA79EB1B23FC8200A6E27A /* Build configuration list for PBXNativeTarget "FrequencyGrapher" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5DFA79EC1B23FC8200A6E27A /* Debug */,
+				5DFA79ED1B23FC8200A6E27A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5DFA79EE1B23FC8200A6E27A /* Build configuration list for PBXNativeTarget "FrequencyGrapherTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5DFA79EF1B23FC8200A6E27A /* Debug */,
+				5DFA79F01B23FC8200A6E27A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5DFA79C01B23FC8200A6E27A /* Project object */;
+}
